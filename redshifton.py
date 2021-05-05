@@ -24,6 +24,7 @@ class redshifton:
                 val = 4000
             print("\n\nREDUCING THE STRAIN ON YOUR EYES\n\n")
             self.disable()
+            time.sleep(.25)
             os.system(f"redshift -O {val}")
             self.enabled = True
         else:
